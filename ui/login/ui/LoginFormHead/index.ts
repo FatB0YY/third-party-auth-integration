@@ -1,0 +1,1 @@
+export { LoginFormHead } from './LoginFormHead';

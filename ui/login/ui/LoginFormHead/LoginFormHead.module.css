@@ -1,0 +1,10 @@
+.title {
+	color: var(--system-color-dark-500);
+}
+
+.head {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: var(--system-spacing-700);
+}

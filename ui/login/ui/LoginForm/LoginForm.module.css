@@ -1,0 +1,38 @@
+.container {
+	align-items: center;
+	background-color: var(--system-color-neutral-200);
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+}
+
+.form {
+	background-color: var(--system-color-light-500);
+	border-radius: var(--system-radius-200);
+	box-shadow: 0 4px 12px var(--system-color-dark-500-opaque-200);
+	max-width: 400px;
+	padding: var(--system-spacing-800);
+	width: 100%;
+}
+
+.action,
+.field {
+	width: 100%;
+}
+
+.body {
+	display: flex;
+	flex-direction: column;
+	gap: var(--system-spacing-500);
+	margin-bottom: var(--system-spacing-700);
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	gap: var(--system-spacing-400);
+}
+
+.errorMessage {
+	color: var(--system-color-danger-500);
+}
